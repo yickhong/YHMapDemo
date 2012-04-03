@@ -1,0 +1,9 @@
+   yhmapdemo
+   Copyright 2012 Yick-Hong Lam
+
+   This product based on code developed by Yick-Hong Lam. You may always contact me at
+   Email: yickhong@gmail.com
+   Website: http://yickhong-ios.blogspot.com/
+
+   You can get the original code which this project derived from at the follow git repository
+   https://github.com/yickhong/YHMapDemo

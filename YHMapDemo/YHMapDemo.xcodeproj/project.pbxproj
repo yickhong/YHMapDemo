@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B04BB21152B68E20058F4FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB20152B68E20058F4FF /* UIKit.framework */; };
+		0B04BB23152B68E20058F4FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB22152B68E20058F4FF /* Foundation.framework */; };
+		0B04BB25152B68E20058F4FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB24152B68E20058F4FF /* CoreGraphics.framework */; };
+		0B04BB2B152B68E20058F4FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BB29152B68E20058F4FF /* InfoPlist.strings */; };
+		0B04BB2D152B68E20058F4FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BB2C152B68E20058F4FF /* main.m */; };
+		0B04BB31152B68E20058F4FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BB30152B68E20058F4FF /* AppDelegate.m */; };
+		0B04BB34152B68E20058F4FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BB33152B68E20058F4FF /* ViewController.m */; };
+		0B04BB37152B68E20058F4FF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BB35152B68E20058F4FF /* ViewController.xib */; };
+		0B04BB3E152B69080058F4FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB3D152B69080058F4FF /* MapKit.framework */; };
+		0B04BB40152B690D0058F4FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB3F152B690D0058F4FF /* QuartzCore.framework */; };
+		0B04BB45152B695E0058F4FF /* NOTICE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BB41152B695E0058F4FF /* NOTICE.TXT */; };
+		0B04BB46152B695E0058F4FF /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BB42152B695E0058F4FF /* redCircle.png */; };
+		0B04BB47152B695E0058F4FF /* YHAnimatedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BB44152B695E0058F4FF /* YHAnimatedCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B04BB1C152B68E20058F4FF /* YHMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B04BB20152B68E20058F4FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B04BB22152B68E20058F4FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B04BB24152B68E20058F4FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B04BB28152B68E20058F4FF /* YHMapDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YHMapDemo-Info.plist"; sourceTree = "<group>"; };
+		0B04BB2A152B68E20058F4FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B04BB2C152B68E20058F4FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B04BB2E152B68E20058F4FF /* YHMapDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YHMapDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0B04BB2F152B68E20058F4FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B04BB30152B68E20058F4FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B04BB32152B68E20058F4FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B04BB33152B68E20058F4FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B04BB36152B68E20058F4FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0B04BB3D152B69080058F4FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0B04BB3F152B690D0058F4FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0B04BB41152B695E0058F4FF /* NOTICE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.TXT; sourceTree = "<group>"; };
+		0B04BB42152B695E0058F4FF /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
+		0B04BB43152B695E0058F4FF /* YHAnimatedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAnimatedCircleView.h; sourceTree = "<group>"; };
+		0B04BB44152B695E0058F4FF /* YHAnimatedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAnimatedCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B04BB19152B68E20058F4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B04BB40152B690D0058F4FF /* QuartzCore.framework in Frameworks */,
+				0B04BB3E152B69080058F4FF /* MapKit.framework in Frameworks */,
+				0B04BB21152B68E20058F4FF /* UIKit.framework in Frameworks */,
+				0B04BB23152B68E20058F4FF /* Foundation.framework in Frameworks */,
+				0B04BB25152B68E20058F4FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B04BB11152B68E20058F4FF = {
+			isa = PBXGroup;
+			children = (
+				0B04BB26152B68E20058F4FF /* YHMapDemo */,
+				0B04BB1F152B68E20058F4FF /* Frameworks */,
+				0B04BB1D152B68E20058F4FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B04BB1D152B68E20058F4FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B04BB1C152B68E20058F4FF /* YHMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B04BB1F152B68E20058F4FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B04BB3F152B690D0058F4FF /* QuartzCore.framework */,
+				0B04BB3D152B69080058F4FF /* MapKit.framework */,
+				0B04BB20152B68E20058F4FF /* UIKit.framework */,
+				0B04BB22152B68E20058F4FF /* Foundation.framework */,
+				0B04BB24152B68E20058F4FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B04BB26152B68E20058F4FF /* YHMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0B04BB2F152B68E20058F4FF /* AppDelegate.h */,
+				0B04BB30152B68E20058F4FF /* AppDelegate.m */,
+				0B04BB32152B68E20058F4FF /* ViewController.h */,
+				0B04BB33152B68E20058F4FF /* ViewController.m */,
+				0B04BB35152B68E20058F4FF /* ViewController.xib */,
+				0B04BB43152B695E0058F4FF /* YHAnimatedCircleView.h */,
+				0B04BB44152B695E0058F4FF /* YHAnimatedCircleView.m */,
+				0B04BB41152B695E0058F4FF /* NOTICE.TXT */,
+				0B04BB42152B695E0058F4FF /* redCircle.png */,
+				0B04BB27152B68E20058F4FF /* Supporting Files */,
+			);
+			path = YHMapDemo;
+			sourceTree = "<group>";
+		};
+		0B04BB27152B68E20058F4FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B04BB28152B68E20058F4FF /* YHMapDemo-Info.plist */,
+				0B04BB29152B68E20058F4FF /* InfoPlist.strings */,
+				0B04BB2C152B68E20058F4FF /* main.m */,
+				0B04BB2E152B68E20058F4FF /* YHMapDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B04BB1B152B68E20058F4FF /* YHMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B04BB3A152B68E20058F4FF /* Build configuration list for PBXNativeTarget "YHMapDemo" */;
+			buildPhases = (
+				0B04BB18152B68E20058F4FF /* Sources */,
+				0B04BB19152B68E20058F4FF /* Frameworks */,
+				0B04BB1A152B68E20058F4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHMapDemo;
+			productName = YHMapDemo;
+			productReference = 0B04BB1C152B68E20058F4FF /* YHMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B04BB13152B68E20058F4FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0B04BB16152B68E20058F4FF /* Build configuration list for PBXProject "YHMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B04BB11152B68E20058F4FF;
+			productRefGroup = 0B04BB1D152B68E20058F4FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B04BB1B152B68E20058F4FF /* YHMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B04BB1A152B68E20058F4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B04BB2B152B68E20058F4FF /* InfoPlist.strings in Resources */,
+				0B04BB37152B68E20058F4FF /* ViewController.xib in Resources */,
+				0B04BB45152B695E0058F4FF /* NOTICE.TXT in Resources */,
+				0B04BB46152B695E0058F4FF /* redCircle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B04BB18152B68E20058F4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B04BB2D152B68E20058F4FF /* main.m in Sources */,
+				0B04BB31152B68E20058F4FF /* AppDelegate.m in Sources */,
+				0B04BB34152B68E20058F4FF /* ViewController.m in Sources */,
+				0B04BB47152B695E0058F4FF /* YHAnimatedCircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B04BB29152B68E20058F4FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B04BB2A152B68E20058F4FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B04BB35152B68E20058F4FF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B04BB36152B68E20058F4FF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B04BB38152B68E20058F4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B04BB39152B68E20058F4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B04BB3B152B68E20058F4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YHMapDemo/YHMapDemo-Prefix.pch";
+				INFOPLIST_FILE = "YHMapDemo/YHMapDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B04BB3C152B68E20058F4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YHMapDemo/YHMapDemo-Prefix.pch";
+				INFOPLIST_FILE = "YHMapDemo/YHMapDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B04BB16152B68E20058F4FF /* Build configuration list for PBXProject "YHMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04BB38152B68E20058F4FF /* Debug */,
+				0B04BB39152B68E20058F4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B04BB3A152B68E20058F4FF /* Build configuration list for PBXNativeTarget "YHMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04BB3B152B68E20058F4FF /* Debug */,
+				0B04BB3C152B68E20058F4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B04BB13152B68E20058F4FF /* Project object */;
+}
