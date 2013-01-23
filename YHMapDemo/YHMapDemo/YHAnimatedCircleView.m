@@ -24,7 +24,7 @@
 #define ANIMATION_DURATION 0.8
 
 //repeat forever
-#define ANIMATION_REPEAT 1e100f 
+#define ANIMATION_REPEAT HUGE_VALF 
 
 @implementation YHAnimatedCircleView
 
